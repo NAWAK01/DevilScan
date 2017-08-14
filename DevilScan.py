@@ -33,7 +33,7 @@ print "  <----.     __ / __   \               \/          \/         \/         
 print "  <----|====O)))==) \) /====           "
 print "  <----'    `--' `.__,' \    type 1 for open port testing"
 print "               |        |    type 2 for scann all ip connected to your network"
-print "                \       /    type 3 to do a ping test (close terminal to stop)"
+print "                \       /    type 3 to do a ping test"
 print "           ______( (_  / \______       "
 print "         ,'  ,-----'   |        \      "
 print "         `--{__________)        \/     "
