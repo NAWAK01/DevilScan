@@ -55,7 +55,7 @@ if choice == 1:
 	
 	if choicescan == 1:
 		print "wait, it will take a moment..."
-		for port in xrange(1, 9033):
+		for port in xrange(1, 65536):
  			sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 			result = sock.connect_ex((ipcheck, port))
 			if result == 0:
@@ -64,7 +64,7 @@ if choice == 1:
 				print bcolors.WARNING + "Port ", port, " is not open"
 	if choicescan == 2:
 		print "wait, it will take a moment..."
-		for port in xrange(1, 9033):
+		for port in xrange(1, 65536):
  			sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 			result = sock.connect_ex((ipcheck, port))
 			if result == 0:
