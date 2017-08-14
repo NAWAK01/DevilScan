@@ -29,7 +29,7 @@ print "             `-^--'`<     '     /   _____/ \_   ___ \   /  _  \   \      
 print "            (_.)  _  )   /      \_____  \  /    \  \/  /  /_\  \  /   |   \  "
 print "             `.___/`    /       /        \ \     \____/    |    \/    |    \ "
 print "               `-----' /       /_______  /  \______  /\____|__  /\____|__  / "
-print "  <----.     __ / __   \               \/         \/         \/         \/   "
+print "  <----.     __ / __   \               \/          \/         \/         \/   "
 print "  <----|====O)))==) \) /====           "
 print "  <----'    `--' `.__,' \    type 1 for open port testing"
 print "               |        |    type 2 for scann all ip connected to your network"
