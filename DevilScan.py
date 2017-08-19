@@ -162,7 +162,7 @@ def mainmenu():
 			if choix in ("q", "Q"):
 				subprocess.Popen("exit", shell=True)
 			elif choix in ("m", "M"):
-				choice1()
+				choice2()
 			elif choix in ("d", "D"):
 				mainmenu()
 			else:
@@ -186,7 +186,7 @@ def mainmenu():
 			if choix in ("q", "Q"):
 				subprocess.Popen("exit", shell=True)
 			elif choix in ("m", "M"):
-				choice1()
+				choice2()
 			elif choix in ("d", "D"):
 				mainmenu()
 			else:
@@ -204,7 +204,7 @@ def mainmenu():
 		if choix in ("q", "Q"):
 			subprocess.Popen("exit", shell=True)
 		elif choix in ("m", "M"):
-			choice1()
+			choice3()
 		elif choix in ("d", "D"):
 			mainmenu()
 		else:
